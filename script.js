@@ -43,11 +43,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "sure ka?",
-    "kahit ngayon lang :(",
-    "damot mo naman :(",
-    "okay lang ba? :(",
-    "sige na please :(",
+    "ayoko",
+    "ayoko padin",
+    "no hindi kita type",
+    "pass po",
+    "ayoko promise",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
